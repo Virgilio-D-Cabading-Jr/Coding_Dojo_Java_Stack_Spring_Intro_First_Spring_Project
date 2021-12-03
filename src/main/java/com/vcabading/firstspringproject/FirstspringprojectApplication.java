@@ -19,4 +19,8 @@ public class FirstspringprojectApplication {
 		return "Hello Spring World!";
 	}
 	
+	@RequestMapping("/yo")
+	public String yo() {
+		return "You got this Bro!";
+	}
 }
