@@ -9,6 +9,8 @@ public class HomeController {
     @GetMapping("/")
     public String index(Model model) {
     	model.addAttribute("dojoName", "San Jose");
+    	model.addAttribute("firstName", "John");
+    	model.addAttribue("lastName", "Doe");
         return "index.jsp";
     }
 }
