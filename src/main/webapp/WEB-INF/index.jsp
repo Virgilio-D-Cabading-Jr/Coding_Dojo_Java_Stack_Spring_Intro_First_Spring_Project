@@ -9,8 +9,9 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="UTF-8">
+	<!-- ---- CSS LINKS --------------------------------- -->
+	<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/app.js"></script>
 	<title>First JSP</title>
 </head>
 <body>
@@ -26,5 +27,10 @@
 		<c:out value="${firstName}"></c:out>
 		<c:out value="${lastName}"></c:out>
 	</p>
+	
+	<!-- ---- JAVASCRIPT LINKS ---------------------------- -->
+	<script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </head>
