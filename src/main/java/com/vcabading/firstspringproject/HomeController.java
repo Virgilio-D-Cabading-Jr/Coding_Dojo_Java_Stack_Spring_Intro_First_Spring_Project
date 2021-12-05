@@ -10,7 +10,7 @@ public class HomeController {
     public String index(Model model) {
     	model.addAttribute("dojoName", "San Jose");
     	model.addAttribute("firstName", "John");
-    	model.addAttribue("lastName", "Doe");
+    	model.addAttribute("lastName", "Doe");
         return "index.jsp";
     }
 }
